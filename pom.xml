@@ -4,6 +4,14 @@
   <artifactId>springproject</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   
+    <distributionManagement>
+	<repository>
+		<id>github</id>
+		<name>GitHub khadijaaity Apache Maven Packages</name>
+		<url>https://maven.pkg.github.com/khadijaaity/SpringProject</url>
+	</repository>
+</distributionManagement>
+  
   <properties>
 		<spring.version>4.3.14.RELEASE</spring.version>
 		<junit.version>4.12</junit.version>
@@ -148,6 +156,34 @@
 					<target>1.8</target>
 				</configuration>
 			</plugin>
+			
+			<plugin>
+	            <groupId>org.apache.maven.plugins</groupId>
+	            <artifactId>maven-assembly-plugin</artifactId>
+	            <version>3.1.1</version>
+	
+	            <configuration>
+	                <descriptorRefs>
+	                    <descriptorRef>jar-with-dependencies</descriptorRef>
+	                </descriptorRefs>
+	                 <archive>
+                    <manifest>
+                      <mainClass>com.privalia.presentation.Principal</mainClass>
+                    </manifest>
+                </archive>
+	            </configuration>
+	
+	            <executions>
+	                <execution>
+	                    <id>make-assembly</id>
+	                    <phase>package</phase>
+	                    <goals>
+	                        <goal>single</goal>
+	                    </goals>
+	                </execution>
+	            </executions>
+	
+	        </plugin>
 			<!-- http://kasterma.net/2017/06/08/maven-exec.html -->
 			<plugin>
 				<groupId>org.codehaus.mojo</groupId>

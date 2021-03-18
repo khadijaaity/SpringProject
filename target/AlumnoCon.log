@@ -1,0 +1,9 @@
+2021-03-18 13:04:02 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@722c41f4: startup date [Thu Mar 18 13:04:02 CET 2021]; root of context hierarchy
+2021-03-18 13:04:02 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-config.xml]
+2021-03-18 13:04:03 INFO  ClassPathXmlApplicationContext:984 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@722c41f4: startup date [Thu Mar 18 13:04:02 CET 2021]; root of context hierarchy
+2021-03-18 13:05:19 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@722c41f4: startup date [Thu Mar 18 13:05:19 CET 2021]; root of context hierarchy
+2021-03-18 13:05:19 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-config.xml]
+2021-03-18 13:05:19 INFO  ClassPathXmlApplicationContext:984 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@722c41f4: startup date [Thu Mar 18 13:05:19 CET 2021]; root of context hierarchy
+2021-03-18 13:21:02 INFO  ClassPathXmlApplicationContext:583 - Refreshing org.springframework.context.support.ClassPathXmlApplicationContext@722c41f4: startup date [Thu Mar 18 13:21:02 CET 2021]; root of context hierarchy
+2021-03-18 13:21:02 INFO  XmlBeanDefinitionReader:317 - Loading XML bean definitions from class path resource [spring-config.xml]
+2021-03-18 13:21:04 INFO  ClassPathXmlApplicationContext:984 - Closing org.springframework.context.support.ClassPathXmlApplicationContext@722c41f4: startup date [Thu Mar 18 13:21:02 CET 2021]; root of context hierarchy
